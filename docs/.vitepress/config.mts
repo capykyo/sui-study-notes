@@ -10,19 +10,48 @@ export default defineConfig({
       provider: 'local'
     },
     nav: [
-      { text: 'Home', link: '/' },
+      {
+        text: 'Sui Notes',
+        items: [
+          { text: 'Basics', link: '/sui/basics/overview' },
+          { text: 'Advanced', link: '/sui/advanced/smart-contracts' },
+          { text: 'Resources', link: '/sui/resources/tools' }
+        ]
+      },
+      {
+        text: 'Move Notes',
+        items: [
+          { text: 'Basics', link: '/move/basics/overview' },
+          { text: 'Advanced', link: '/move/advanced/modules' },
+          { text: 'Resources', link: '/move/resources/tools' }
+        ]
+      },
+      { text: 'QA', link: '/qa/index' },
       { text: 'Contributor', link: '/team' },
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      '/sui/': [
+        {
+          text: 'Sui Notes',
+          items: [
+            { text: 'Basics', link: '/sui/basics/overview' },
+            { text: 'Advanced', link: '/sui/advanced/smart-contracts' },
+            { text: 'Resources', link: '/sui/resources/tools' }
+          ]
+        }
+      ],
+      '/move/': [
+        {
+          text: 'Move Notes',
+          items: [
+            { text: 'Basics', link: '/move/basics/overview' },
+            { text: 'Advanced', link: '/move/advanced/modules' },
+            { text: 'Resources', link: '/move/resources/tools' }
+          ]
+        }
+      ]
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/capykyo/sui-study-notes' }
