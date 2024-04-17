@@ -5,7 +5,11 @@ export default defineConfig({
   title: "Sui notes",
   description: "Learn Move&Sui, understand them and apply them.",
   lang: 'zh-CN',
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.png' }]
+  ],
   themeConfig: {
+    logo: '/favicon.png',
     search: {
       provider: 'local'
     },
