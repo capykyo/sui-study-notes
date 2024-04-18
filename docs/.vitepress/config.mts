@@ -59,6 +59,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/capykyo/sui-study-notes' }
-    ]
+    ],
+    outline: {
+      level: [2, 6],
+      label: '笔记导航'
+    }
   }
 })
