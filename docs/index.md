@@ -26,15 +26,16 @@ features:
     details: 浏览常见问题解答集，快速找到编程难题的解决方法，优化开发流程。
 ---
 
-### 学习路径
+### 学习资源
 
-- **进阶 Move 教程** - [开始学习](/zh/move/advanced/modules)
-- **深入 Sui 技术栈** - [开始学习](/zh/sui/advanced/smart-contracts)
+- **TinTinLand Move训练营资料** - [开始学习](https://www.notion.so/Move-c1eb4844b54c49a0b3cff97fa2c7bede)
+- **Move视频** - [开始学习](https://meggd.xetlk.com/s/39ZGtm)
+- **Task仓库** - [开始学习](https://github.com/move-cn/letsmove)
+- **tintin bootcamp** - [开始学习](https://github.com/move-cn/tintin-bootcamp)
 
 ### 即将举行的活动
 
-- [注册即将举行的研讨会](https://events.example.com)
-- [查看开发者会议日程](https://meetups.example.com)
+- [21号杭州web3](https://events.example.com)
 
 <style>
 :root {
