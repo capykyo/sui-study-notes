@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Sui & Move 学习笔记"
-  text: "全面深入的 Sui 和 Move 开发指南"
+  text: "训练营开发指南"
   tagline: 从基础到进阶，构建并优化你的区块链应用
   image: 
       src: /background.png
@@ -32,6 +32,7 @@ features:
 - **Move视频** - [开始学习](https://meggd.xetlk.com/s/39ZGtm)
 - **Task仓库** - [开始学习](https://github.com/move-cn/letsmove)
 - **tintin bootcamp** - [开始学习](https://github.com/move-cn/tintin-bootcamp)
+- **learning-sui** - [开始学习](https://github.com/movefuns/learning-sui)
 
 ### 即将举行的活动
 
